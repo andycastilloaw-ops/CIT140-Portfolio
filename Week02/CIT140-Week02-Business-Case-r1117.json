@@ -1,0 +1,129 @@
+{
+  "format": "command-nexus-weekly-report",
+  "schemaVersion": 1,
+  "courseId": "CIT140",
+  "week": 2,
+  "assignmentId": "CIT140-W02-BUSINESS-CASE",
+  "artifactType": "business-case-recommendation",
+  "caseId": "meridian-forge",
+  "reportId": "44952a24-6fc9-478d-b664-17758c0ca2b1",
+  "revision": 1117,
+  "createdAt": "2026-09-24T18:45:05.419Z",
+  "exportedAt": "2026-09-24T21:46:40.209Z",
+  "learnerLabel": "Is This Project Worth Doing?",
+  "contentStatus": "complete-fields",
+  "sections": [
+    {
+      "id": "project",
+      "title": "Proposed project",
+      "value": "I recommend evaluating a QA Control Review of the affected QA cell. The review would examine who has command authorization, how retired tests are being controlled, and how evidence is being preserved for future investigations and decisions."
+    },
+    {
+      "id": "need",
+      "title": "Business need",
+      "value": "The business needs better control and traceability of its QA records. During the initial assessment, 6 record requests took 60 staff minutes, and only 2 of the 6 included both an identified owner and a clear link to the original source."
+    },
+    {
+      "id": "value",
+      "title": "Expected value and beneficiaries",
+      "value": "QA and Engineering would benefit because they need records they can trace for any further investigations. Operations would also benefit because they'll have better reasoning to request any later work. The expected value is having better control over the system by figuring out who has command authorization and making sure retired tests are being controlled. "
+    },
+    {
+      "id": "scopeIn",
+      "title": "Included work",
+      "value": "The included work will focus on the affected QA cell by looking at who has command authorization, how tests are scheduled and retired, and how evidence is saved. The deliverables will be a record of who has command ownership, a list of the controls for scheduling and retiring tests, and a checklist for preserving evidence. Any missing information will also be recorded for future decisions"
+    },
+    {
+      "id": "scopeOut",
+      "title": "Excluded work",
+      "value": "It states excluded work includes restarting or operating MR-17, changing the software or schedules, changing or deleting original records, buying a replacement robot, choosing a vendor, or expanding the review to other QA cells."
+    },
+    {
+      "id": "technical",
+      "title": "Technical feasibility",
+      "value": "The review can use the tools that are already available and the read-only record exports. The only problem is that access to those exports has been requested but is not confirmed yet. If the team does not get access, the review will have to be changed or delayed."
+    },
+    {
+      "id": "operational",
+      "title": "Operational feasibility",
+      "value": "There should be enough time for staff to fit this into their day to day duties to get it done before the proposed time period, but their availability still needs to be confirmed before the work is authorized."
+    },
+    {
+      "id": "resources",
+      "title": "Cost and resource feasibility",
+      "value": "The base estimate is $2,820 is within the $3,000 limit, but the estimated range is $2,350 to $3,525, so the higher end would go over the limit by up to $525. The estimate also does not include equipment, software licenses, or overtime."
+    },
+    {
+      "id": "schedule",
+      "title": "Schedule feasibility",
+      "value": "The proposed review should take 8 business days, which is within the 10-day limit. This depends on the exports being available by day 3 and Engineering being able to start by day 4. The 48 staff hours are spread between different staff and days."
+    },
+    {
+      "id": "constraints",
+      "title": "Known constraints",
+      "value": "The review in limited to $3,000 and has to be completed within 10 business days, with the current plan taking around 8 days. Staff availability and access to the read-only records still need to be confirmed. The original records also need to be kept safe and only read-only copies should be used."
+    },
+    {
+      "id": "risks",
+      "title": "Risks and assumptions",
+      "value": "The 8-day plan assumes the read-only exports will be available by day 3. If they arrive late, Engineering could be delayed and the review could take longer. The team should make sure that the exports will be available on time before starting the review. Another possible issue could be employees becoming unavailable during this period."
+    },
+    {
+      "id": "success",
+      "title": "Success measures and evidence",
+      "value": "After the review the sponsor can check the value by seeing if retrieving records is faster and if it is able to correctly trace the information needed. The current baseline is six record requests taking 60 staff minutes total, with an average of 10 minutes per request and only 2 of the 6 records had both an identified custodian and a clear link to the original source, so if the speed and success rate is able to improve then that would be better for record traceability."
+    },
+    {
+      "id": "recommendation",
+      "title": "Recommendation",
+      "value": "revise"
+    },
+    {
+      "id": "rationale",
+      "title": "Rationale and conditions",
+      "value": "I chose to revise the review mainly because of the cost and scheduling. The base estimate is $2820, which is under the $3000 limit, but the higher estimate could reach $3525 and go over the budget by $525. The 8 day schedule is also within the 10 day limit, but it depends on staff being available and the exports arriving on time. I think these issues should be confirmed before the review moves forward."
+    },
+    {
+      "id": "nextStep",
+      "title": "Next authorization or information step",
+      "value": "The next step should be to confirm the staff schedule and get a more accurate final cost. Since the cost could go over the $3000 limit the sponsor should use this information to decide what needs to be changed before authorizing the review."
+    }
+  ],
+  "sources": [
+    {
+      "id": "W02-S01",
+      "title": "Request for a bounded review",
+      "locator": "Week 2 decision packet · W02-S01"
+    },
+    {
+      "id": "W02-S02",
+      "title": "Evidence-retrieval workload",
+      "locator": "Week 2 decision packet · W02-S02"
+    },
+    {
+      "id": "W02-S03",
+      "title": "Proposed scope and current workflow",
+      "locator": "Week 2 decision packet · W02-S03"
+    },
+    {
+      "id": "W02-S04",
+      "title": "Capacity, access and operating limits",
+      "locator": "Week 2 decision packet · W02-S04"
+    },
+    {
+      "id": "W02-S05",
+      "title": "Estimate and success-measure sheet",
+      "locator": "Week 2 decision packet · W02-S05"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "repository-check",
+      "filename": "Week02_Repository_Check.png",
+      "kind": "supporting-evidence",
+      "caption": "Required Week 2 repository screenshot; supply the actual file separately. This reference does not verify an upload.",
+      "sourceIds": []
+    }
+  ],
+  "relatedReportIds": []
+}
